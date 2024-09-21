@@ -1,0 +1,22 @@
+pessoas = {
+    'Ana Silva': ['123.456.789-00', 'Rua das Flores, 123, São Paulo, SP', '(11) 98765-4321'],
+    'Bruno Souza': ['987.654.321-00', 'Avenida Brasil, 456, Rio de Janeiro, RJ', '(21) 91234-5678'],
+    'Carlos Pereira': ['456.789.123-00', 'Praça da Sé, 789, Fortaleza, CE', '(85) 99876-5432'],
+    'Daniela Costa': ['321.654.987-00', 'Rua das Palmeiras, 321, Belo Horizonte, MG', '(31) 91234-5678'],
+    'Eduardo Lima': ['654.321.987-00', 'Avenida Paulista, 654, São Paulo, SP', '(11) 99876-5432'],
+    'Fernanda Oliveira': ['789.123.456-00', 'Rua da Praia, 789, Salvador, BA', '(71) 98765-4321'],
+    'Gabriel Santos': ['987.123.654-00', 'Avenida Atlântica, 987, Rio de Janeiro, RJ', '(21) 91234-5678'],
+    'Helena Martins': ['123.789.456-00', 'Rua das Acácias, 123, Curitiba, PR', '(41) 99876-5432'],
+    'Igor Almeida': ['456.123.789-00', 'Avenida das Américas, 456, Brasília, DF', '(61) 98765-4321'],
+    'Juliana Ferreira': ['789.456.123-00', 'Rua das Laranjeiras, 789, Recife, PE', '(81) 91234-5678'],
+    'Lucas Rocha': ['321.987.654-00', 'Avenida Central, 321, Porto Alegre, RS', '(51) 99876-5432'],
+    'Mariana Gomes': ['654.987.321-00', 'Rua das Palmeiras, 654, Manaus, AM', '(92) 98765-4321'],
+    'Nicolas Ribeiro': ['987.654.123-00', 'Avenida Beira Mar, 987, Fortaleza, CE', '(85) 91234-5678'],
+    'Olivia Mendes': ['123.654.789-00', 'Rua das Hortênsias, 123, Florianópolis, SC', '(48) 99876-5432'],
+    'Pedro Araujo': ['456.987.123-00', 'Avenida Independência, 456, Goiânia, GO', '(62) 98765-4321'],
+    'Quintino Barbosa': ['789.321.654-00', 'Rua das Rosas, 789, Vitória, ES', '(27) 91234-5678'],
+    'Rafaela Nunes': ['321.456.987-00', 'Avenida das Nações, 321, Natal, RN', '(84) 99876-5432'],
+    'Samuel Cardoso': ['654.123.987-00', 'Rua das Mangueiras, 654, João Pessoa, PB', '(83) 98765-4321'],
+    'Tatiana Lopes': ['987.321.456-00', 'Avenida do Contorno, 987, Maceió, AL', '(82) 91234-5678'],
+    'Ursula Vieira': ['123.987.654-00', 'Rua das Oliveiras, 123, Teresina, PI', '(86) 99876-5432']
+}
