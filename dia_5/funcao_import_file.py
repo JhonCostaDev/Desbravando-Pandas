@@ -4,10 +4,10 @@ import numpy as np
 import os
 # %%
 # Foi criado uma função para fazer os importes do csv.
-def import_etl(path: str):
-    name = path.split('/')[-1].split('.')[0]
+def import_etl(path: str): # Recebe o caminho para pasta onde estão os arquivos
+    name = path.split('/')[-1].split('.')[0] # Variável que vai nomear as tabelas com o mesmo nome dos seus respectivos arquivos.
     
-    df = (
+    df = ( # contruindo o dataframe
         pd.read_csv(path, sep=';')
         .rename(columns={'valor': name})
         .set_index(['cod', 'nome', 'período'])
@@ -16,9 +16,9 @@ def import_etl(path: str):
 # %%
 path = '../data/ipea/'
 files = os.listdir(path)
-
+files
 dfs = []
-for i in files_path:
+for i in files:
     dfs.append(import_etl(path + i))
 # %%
 # Juntando todos os arquivos em um único DataFrame.
